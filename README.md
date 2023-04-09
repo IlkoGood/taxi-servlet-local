@@ -1,8 +1,9 @@
 
-<h3>Main description:</h3>
-
-An example of servlet-based program, over-simplified management system 
-with following abilities:
+<h2><img src=https://user-images.githubusercontent.com/116804521/230764634-d4e661bd-423f-4af8-ab04-cd3ceb86ce31.jpg> Taxi Management System  
+<img src=https://user-images.githubusercontent.com/116804521/230764634-d4e661bd-423f-4af8-ab04-cd3ceb86ce31.jpg></h2>
+ 
+<h4>An example of servlet-based program, over-simplified management system 
+with following abilities:</h4>
 
 Authenticate / create user aka driver, restrict access to pages;
 
@@ -11,6 +12,20 @@ Create and delete car manufacturers, car models, provide their listings;
 CRUD drivers with assigning / unbinding corresponding cars;
 
 Program provides minimalistic button-based interface with joke included (try to delete your authenticated driver from driver list);
+
+Currently deployed at AWS http://13.53.243.222/index (address may be changed, feel free to write me here in GitHub);
+
+<h3>Used stack:</h3>
+
+InteliJ Idea, JDK, including Maven plugins, MySQL;
+
+Basic methods of Java Reflection API to assure implementing SOLID conception;
+
+JDBC API and SQL querries to work with DB;
+
+HTTP Servlet and Filter implementations of Java Servlet API to process requests from user;
+
+Apache Tomcat to deploy;
 
 <h3>Startup steps:</h3>
 
@@ -31,7 +46,7 @@ Check for timezone in URL field (see example screenshot):
 <img src=https://user-images.githubusercontent.com/116804521/230735152-a1cd9112-025c-4930-9582-b6741ac51113.png>
 </details>
 
-Execute mvn clean package;
+Execute <code>mvn clean package</code>;
 
 Configure run with Tomcat as on screenshots, or deploy .war in a way that is convenient for you;
 
