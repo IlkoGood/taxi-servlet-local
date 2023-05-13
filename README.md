@@ -8,7 +8,7 @@
 <li>Create and delete car manufacturers, car models, provide their listings;</li>
 <li>CRUD drivers with assigning / unbinding corresponding cars;</li>
 <li>Program provides minimalistic button-based interface with joke included (try to delete your authenticated driver from driver list);</li>
-<li>Currently deployed at AWS <b><a href="http://13.53.243.222/index">TAXI</a></b> (address may be changed, feel free to write me here in GitHub);</li>
+<li>Currently deployed at AWS <b><a href="http://16.16.94.18/index">TAXI</a></b> (address may be changed, feel free to write me here in GitHub);</li>
 </ul>
 
 ## Used stack
